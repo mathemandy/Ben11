@@ -1,8 +1,8 @@
 package ng.mathemandy.venten.data.contract
 
-import ng.mathemandy.venten.data.model.Filter
+import ng.mathemandy.venten.data.model.BaseRates
 
 
 interface  FilterRemote {
-    suspend fun  fetchFilters(): List<Filter>
+    suspend fun  fetchBaseRates(): BaseRates
 }

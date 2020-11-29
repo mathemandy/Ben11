@@ -14,3 +14,14 @@ data class Filter(
     val colors: List<String>
 
 ) : Parcelable
+
+@Parcelize
+data class BaseRates(
+    val success: Boolean,
+    val timestamp: Int,
+    val base: String,
+    val date: String,
+    val rates: Map<String?, Int?>
+) : Parcelable
+
+

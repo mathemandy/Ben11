@@ -14,12 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61e1107d-7aeb-42a1-9609-ef486f9f7584" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_afg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_afg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_afg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_afg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_exchange.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,19 +22,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_afg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/currency_form_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/currency_form_header.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_currency_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_currency_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/core/di/DataModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/core/di/DataModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/core/di/RemoteModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/core/di/RemoteModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/data/contract/FilterRemote.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/data/contract/FilterRemote.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/data/model/Filter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/data/model/Filter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/data/repository/FilterRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/data/repository/RatesRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/domain/repository/FilterRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/domain/repository/FilterRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/domain/usecase/FetchFilters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/domain/usecase/FetchExchangeRates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/presentation/FilterViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/presentation/ExchangeRatesViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/presentation/ui/CurrencyHomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/presentation/ui/CurrencyHomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/presentation/ui/FilterFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/presentation/ui/FilterFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/remote/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/remote/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/remote/ApiServiceFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/remote/ApiServiceFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/remote/impl/FilterRemoteImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/mathemandy/venten/remote/impl/FetchBaseRates.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,6 +281,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="528" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606652505975">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="528" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606652505975" />
+    <state x="882" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606652088137">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state x="882" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1680.970@0.25.1680.970" timestamp="1606652088137" />
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606647973962">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -300,31 +306,31 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="748" y="348" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1600239502280" />
-    <state width="1638" height="431" key="GridCell.Tab.0.bottom" timestamp="1606647930109">
+    <state width="1638" height="431" key="GridCell.Tab.0.bottom" timestamp="1606652448283">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="431" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606647930109" />
+    <state width="1638" height="431" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606652448283" />
     <state width="1878" height="518" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1600238402813" />
     <state width="1878" height="339" key="GridCell.Tab.0.bottom/0.23.1920.1128@0.23.1920.1128" timestamp="1600237871592" />
     <state width="1318" height="374" key="GridCell.Tab.0.bottom/0.25.1680.970@0.25.1680.970" timestamp="1606564055111" />
-    <state width="1638" height="431" key="GridCell.Tab.0.center" timestamp="1606647930107">
+    <state width="1638" height="431" key="GridCell.Tab.0.center" timestamp="1606652448281">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="431" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606647930107" />
+    <state width="1638" height="431" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606652448281" />
     <state width="1878" height="518" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1600238402811" />
     <state width="1878" height="339" key="GridCell.Tab.0.center/0.23.1920.1128@0.23.1920.1128" timestamp="1600237871591" />
     <state width="1318" height="374" key="GridCell.Tab.0.center/0.25.1680.970@0.25.1680.970" timestamp="1606564055110" />
-    <state width="1638" height="431" key="GridCell.Tab.0.left" timestamp="1606647930106">
+    <state width="1638" height="431" key="GridCell.Tab.0.left" timestamp="1606652448281">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="431" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606647930106" />
+    <state width="1638" height="431" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606652448281" />
     <state width="1878" height="518" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1600238402810" />
     <state width="1878" height="339" key="GridCell.Tab.0.left/0.23.1920.1128@0.23.1920.1128" timestamp="1600237871591" />
     <state width="1318" height="374" key="GridCell.Tab.0.left/0.25.1680.970@0.25.1680.970" timestamp="1606564055109" />
-    <state width="1638" height="431" key="GridCell.Tab.0.right" timestamp="1606647930109">
+    <state width="1638" height="431" key="GridCell.Tab.0.right" timestamp="1606652448282">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="431" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606647930109" />
+    <state width="1638" height="431" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606652448282" />
     <state width="1878" height="518" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1600238402812" />
     <state width="1878" height="339" key="GridCell.Tab.0.right/0.23.1920.1128@0.23.1920.1128" timestamp="1600237871592" />
     <state width="1318" height="374" key="GridCell.Tab.0.right/0.25.1680.970@0.25.1680.970" timestamp="1606564055111" />
@@ -332,13 +338,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="509" y="375" key="edit.logcat.filter.dialog.dimensions/0.0.1680.1050@0.0.1680.1050" timestamp="1606643781630" />
-    <state x="547" y="237" width="670" height="592" key="search.everywhere.popup" timestamp="1606650136035">
+    <state x="547" y="237" width="670" height="592" key="search.everywhere.popup" timestamp="1606652730399">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="547" y="237" width="670" height="592" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606650136035" />
+    <state x="547" y="237" width="670" height="592" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606652730399" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1600248294196" />
     <state x="625" y="278" width="670" height="636" key="search.everywhere.popup/0.23.1920.1128@0.23.1920.1128" timestamp="1598483807824" />
-    <state x="547" y="244" width="670" height="547" key="search.everywhere.popup/0.25.1680.970@0.25.1680.970" timestamp="1606566055331" />
+    <state x="547" y="244" width="670" height="547" key="search.everywhere.popup/0.25.1680.970@0.25.1680.970" timestamp="1606651986626" />
     <state x="547" y="244" width="670" height="547" key="search.everywhere.popup/1680.25.1920.1055/0.25.1680.970@0.25.1680.970" timestamp="1605698931159" />
   </component>
 </project>

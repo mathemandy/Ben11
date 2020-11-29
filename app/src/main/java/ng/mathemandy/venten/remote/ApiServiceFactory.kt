@@ -11,8 +11,7 @@ import java.util.concurrent.TimeUnit
 
 object ApiServiceFactory {
 
-    private const val BASE_URL: String = "https://ven10.co/assessment/"
-    private const val BASE_URL1: String = "https://jsonkeeper.com/b/"
+    private const val BASE_URL: String = "http://data.fixer.io/api/"
 
 
     fun makeApiService(isDebug: Boolean, moshi: Moshi): ApiService {
@@ -20,12 +19,11 @@ object ApiServiceFactory {
             makeLoggingInterceptor((isDebug))
         )
         return makeAPiService(okHttpClient, moshi)
-
     }
 
     private fun makeAPiService(okHttpClient: OkHttpClient, moshi: Moshi): ApiService {
         val retrofit: Retrofit = Retrofit.Builder()
-            .baseUrl(BASE_URL1)
+            .baseUrl(BASE_URL)
             .client(okHttpClient)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .build()

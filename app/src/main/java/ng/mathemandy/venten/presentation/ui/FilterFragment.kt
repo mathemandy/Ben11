@@ -1,7 +1,5 @@
 package ng.mathemandy.venten.presentation.ui
 
-import android.Manifest
-import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -16,14 +14,13 @@ import kotlinx.android.synthetic.main.simple_empty_state_view.*
 import ng.mathemandy.venten.R
 import ng.mathemandy.venten.data.model.Filter
 import ng.mathemandy.venten.presentation.AppStatus
-import ng.mathemandy.venten.presentation.FilterViewModel
+import ng.mathemandy.venten.presentation.ExchangeRatesViewModel
 import ng.mathemandy.venten.presentation.ui.adapters.FilterAdapter
 import org.koin.android.ext.android.inject
-import java.io.BufferedReader
 
 class FilterFragment  : BaseFragment(), FilterAdapter.Interaction {
 
-    private val filterViewModel : FilterViewModel by inject()
+    private val exchangeRatesViewModel : ExchangeRatesViewModel by inject()
 
 
     private val adapter: FilterAdapter by lazy { FilterAdapter(this) }
@@ -49,7 +46,7 @@ class FilterFragment  : BaseFragment(), FilterAdapter.Interaction {
 
     private fun setUpRecyclerview() {
         retry_btn.setOnClickListener {
-            filterViewModel.getFilters()
+            exchangeRatesViewModel.getFilters()
             renderLoadingState()
         }
 
@@ -66,7 +63,7 @@ class FilterFragment  : BaseFragment(), FilterAdapter.Interaction {
 
 
     private fun  initDataListener() {
-        filterViewModel.mFetchFiltersLiveData.observe(viewLifecycleOwner, {
+        exchangeRatesViewModel.mFetchFiltersLiveData.observe(viewLifecycleOwner, {
             when (it.status) {
 
                 AppStatus.LOADING -> {

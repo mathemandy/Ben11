@@ -4,6 +4,13 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 apply plugin: "androidx.navigation.safeargs"
 
+Properties props = new Properties()
+try {
+    props.load(file('../keys.properties').newDataInputStream())
+} catch (Exception ex) {
+    throw new GradleException("Missing keys.properties file.");
+}
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
@@ -17,6 +24,7 @@ android {
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
 
+        buildConfigField("String", "ACCESS_KEY", "\"${props.getProperty("ACCESS_KEY")}\"")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
