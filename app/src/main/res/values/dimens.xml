@@ -3,5 +3,7 @@
     <dimen name="headline_text_size">@dimen/_40ssp</dimen>
     <dimen name="sub_headline_text_size">@dimen/_20ssp</dimen>
     <dimen name="edit_text_margin_bottom">@dimen/_6sdp</dimen>
-
+    <dimen name="ben11_padding">@dimen/_10sdp</dimen>
+    <dimen name="ben11_padding_small">@dimen/_4sdp</dimen>
+    <dimen name="ben11_text_size">@dimen/_14ssp</dimen>
 </resources>

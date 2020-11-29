@@ -4,4 +4,6 @@
     <string name="empty_state_icon">empty state icon</string>
     <string name="retry">Retry</string>
     <string name="convert">Convert</string>
+    <string name="app_icon_content_description">App Icon</string>
+
 </resources>

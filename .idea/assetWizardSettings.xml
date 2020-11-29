@@ -14,8 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_afg" />
-                            <entry key="sourceFile" value="$USER_HOME$/Downloads/AFG.svg" />
+                            <entry key="outputName" value="ic_info" />
+                            <entry key="sourceFile" value="$USER_HOME$/Downloads/spam.svg" />
                           </map>
                         </option>
                       </PersistentState>

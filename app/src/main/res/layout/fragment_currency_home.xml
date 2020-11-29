@@ -91,15 +91,13 @@
                     style="@style/Ben11CoreTextInputLayout.DropDown"
                     android:layout_width="0dp"
                     android:layout_marginTop="@dimen/_32sdp"
-                    android:hint="Country"
-                    app:startIconDrawable="@drawable/"
-                    app:boxStrokeColor="@color/Ben11_transparent_splash_green"
+                    app:startIconDrawable="@drawable/ic_menu"
                     app:endIconDrawable="@drawable/ic_down"
                     app:endIconMode="dropdown_menu"
                     app:endIconTint="@color/border_line"
                     app:errorTextColor="@android:color/holo_red_dark"
                     app:hintTextColor="@color/border_line"
-                    app:layout_constraintEnd_toStartOf="@id/country2"
+                    app:layout_constraintEnd_toStartOf="@id/exchangeLogo"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="@+id/guideline_start"
                     app:layout_constraintTop_toBottomOf="@id/form2">
@@ -112,12 +110,24 @@
 
                 </com.google.android.material.textfield.TextInputLayout>
 
+                <ImageView
+                    android:id="@+id/exchangeLogo"
+                    style="@style/Ben11Logo"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintVertical_bias="0.8"
+                    app:srcCompat="@drawable/ic_exchange"
+                    android:layout_margin="@dimen/_8sdp"
+                    app:layout_constraintBottom_toBottomOf="@+id/country1"
+                    app:layout_constraintLeft_toRightOf="@id/country1"
+                    app:layout_constraintRight_toLeftOf="@id/country2"
+                    app:layout_constraintTop_toTopOf="@+id/country1" />
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/country2"
+                    app:startIconDrawable="@drawable/ic_menu"
                     style="@style/Ben11CoreTextInputLayout.DropDown"
                     android:layout_width="0dp"
                     android:layout_marginTop="@dimen/_32sdp"
-                    android:hint="Country"
                     app:boxStrokeColor="@color/Ben11_transparent_splash_green"
                     app:endIconDrawable="@drawable/ic_down"
                     app:endIconMode="dropdown_menu"
@@ -126,7 +136,7 @@
                     app:hintTextColor="@color/border_line"
                     app:layout_constraintEnd_toStartOf="@+id/guideline_end"
                     app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toEndOf="@id/country1"
+                    app:layout_constraintStart_toEndOf="@id/exchangeLogo"
                     app:layout_constraintTop_toBottomOf="@id/form2">
 
                     <AutoCompleteTextView
@@ -139,14 +149,33 @@
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="0dp"
+                    android:id="@+id/convertButton"
                     android:layout_height="?attr/actionBarSize"
                     android:layout_marginTop="@dimen/_36sdp"
                     android:text="@string/convert"
                     android:textAllCaps="false"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textSize="@dimen/_11ssp"
                     app:layout_constraintLeft_toRightOf="@id/guideline_start"
                     app:layout_constraintRight_toLeftOf="@id/guideline_end"
                     app:layout_constraintTop_toBottomOf="@id/country1"
                     />
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/Ben11CoreText"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="64dp"
+                    android:padding="0dp"
+                    android:textAlignment="center"
+                    android:text="Mid-market exchange rate at "
+                    android:textColor="#2779F6"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline_end"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/guideline_start"
+                    app:layout_constraintTop_toBottomOf="@id/convertButton"
+                    app:drawableEndCompat="@drawable/ic_info" />
+
 
 
                 <androidx.constraintlayout.widget.Guideline

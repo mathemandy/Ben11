@@ -52,7 +52,7 @@
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_10sdp"
             android:padding="@dimen/_6sdp"
-            tools:text="Anddjdjddjddjdjdy"
+            android:text="Anddjdjddjddjdjdy"
             android:textAllCaps="true"
             android:fontFamily="@font/montserrat_bold"
             android:singleLine="true"
