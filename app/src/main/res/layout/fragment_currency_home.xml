@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            app:liftOnScroll="true"
+            android:background="@color/appBackground"
+            android:layout_height="@dimen/_160sdp">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsingToolbar"
+                android:layout_width="match_parent"
+                app:maxLines="2"
+                app:expandedTitleMarginStart="@dimen/_16sdp"
+                android:background="@color/appBackground"
+                app:expandedTitleMarginTop="@dimen/_20sdp"
+                app:expandedTitleTextAppearance="@style/Ben11.TextAppearance.CollapsingToolbar.Expanded"
+                app:collapsedTitleTextAppearance="@style/Ben11.TextAppearance.CollapsingToolbar.Collapsed"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    app:navigationIcon="@drawable/ic_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:titleTextColor="#2779F6"
+                    app:title="Currency \nCalculator" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/parent_scroll"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/backContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingBottom="@dimen/_30sdp"
+                tools:ignore="MissingPrefix">
+
+                <include
+                    android:id="@+id/form1"
+                    style="@style/login_edittext"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"
+                    app:layout_constraintStart_toStartOf="@id/guideline_start"
+                    app:layout_constraintTop_toTopOf="parent"
+                    layout="@layout/currency_form_header">
+                </include>
+
+                <include
+                    android:id="@+id/form2"
+                    style="@style/login_edittext"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="@id/guideline_end"
+                    app:layout_constraintStart_toStartOf="@id/guideline_start"
+                    app:layout_constraintTop_toBottomOf="@id/form1"
+                    layout="@layout/currency_form_header">
+                </include>
+
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/country1"
+                    style="@style/Ben11CoreTextInputLayout.DropDown"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/_32sdp"
+                    android:hint="Country"
+                    app:startIconDrawable="@drawable/"
+                    app:boxStrokeColor="@color/Ben11_transparent_splash_green"
+                    app:endIconDrawable="@drawable/ic_down"
+                    app:endIconMode="dropdown_menu"
+                    app:endIconTint="@color/border_line"
+                    app:errorTextColor="@android:color/holo_red_dark"
+                    app:hintTextColor="@color/border_line"
+                    app:layout_constraintEnd_toStartOf="@id/country2"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/guideline_start"
+                    app:layout_constraintTop_toBottomOf="@id/form2">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/currency1_dropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:editable="false" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/country2"
+                    style="@style/Ben11CoreTextInputLayout.DropDown"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/_32sdp"
+                    android:hint="Country"
+                    app:boxStrokeColor="@color/Ben11_transparent_splash_green"
+                    app:endIconDrawable="@drawable/ic_down"
+                    app:endIconMode="dropdown_menu"
+                    app:endIconTint="@color/border_line"
+                    app:errorTextColor="@android:color/holo_red_dark"
+                    app:hintTextColor="@color/border_line"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline_end"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@id/country1"
+                    app:layout_constraintTop_toBottomOf="@id/form2">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/service_type_dropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:editable="false" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="0dp"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginTop="@dimen/_36sdp"
+                    android:text="@string/convert"
+                    android:textAllCaps="false"
+                    app:layout_constraintLeft_toRightOf="@id/guideline_start"
+                    app:layout_constraintRight_toLeftOf="@id/guideline_end"
+                    app:layout_constraintTop_toBottomOf="@id/country1"
+                    />
+
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="@dimen/_16sdp" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_end="@dimen/_16sdp" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

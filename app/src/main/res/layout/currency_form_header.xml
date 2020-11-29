@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/search_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+        <View
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_background_currency"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            app:layout_constraintBottom_toBottomOf="@id/bg"
+            app:layout_constraintStart_toStartOf="@id/bg"
+            android:id="@+id/search_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:background="@android:color/transparent"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:text="1332"
+            android:textColor="#545454"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toStartOf="@+id/cancel_search_btn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/cancel_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/search_et"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:padding="@dimen/_6sdp"
+            tools:text="Anddjdjddjddjdjdy"
+            android:textAllCaps="true"
+            android:fontFamily="@font/montserrat_bold"
+            android:singleLine="true"
+            android:maxEms="3"
+            app:elevation="@dimen/_3sdp"
+            app:layout_constraintBottom_toBottomOf="@id/bg"
+            app:layout_constraintEnd_toEndOf="@id/bg"
+            app:layout_constraintTop_toTopOf="@id/bg"
+            app:tint="#c4c4c4" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

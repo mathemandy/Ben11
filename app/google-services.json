@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860253618331",
+    "firebase_url": "https://map-places-289705.firebaseio.com",
+    "project_id": "map-places-289705",
+    "storage_bucket": "map-places-289705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860253618331:android:efff085f9555d8e43e063e",
+        "android_client_info": {
+          "package_name": "ng.mathemandy.venten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860253618331-77k52hfq8s09i8vb7a8mgo7osab1ifvf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ng.mathemandy.venten",
+            "certificate_hash": "9e95d2db642e90fa1808c1d99e5c41d9aa784e60"
+          }
+        },
+        {
+          "client_id": "860253618331-nr10b1s33va7g0loil8m6osunisb369t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYX76BmKb8lSJQrCL7n23yKIo3wF1VeSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860253618331-nr10b1s33va7g0loil8m6osunisb369t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

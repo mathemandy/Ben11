@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Andy Eshiet</string>
+
+    <string name="empty_state_icon">empty state icon</string>
+    <string name="retry">Retry</string>
+    <string name="convert">Convert</string>
+</resources>

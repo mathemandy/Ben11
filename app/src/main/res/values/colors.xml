@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#171717</color>
+    <color name="colorAccent">#FFA700</color>
+    <color name="colorPrimaryDark">#000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey_text">#B7B7B7</color>
+    <color name="grey_button">#4e4e4e</color>
+    <color name="appBackground">#ffffff</color>
+    <color name="white_trans">#89ffffff</color>
+    <color name="white_figure">#fafafa</color>
+    <color name="border_line">#C8BDBD</color>
+    <color name="Ben11_transparent_splash_green">#61d59d</color>
+
+</resources>

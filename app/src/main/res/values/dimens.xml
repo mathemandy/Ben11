@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headline_text_size">@dimen/_40ssp</dimen>
+    <dimen name="sub_headline_text_size">@dimen/_20ssp</dimen>
+    <dimen name="edit_text_margin_bottom">@dimen/_6sdp</dimen>
+
+</resources>
