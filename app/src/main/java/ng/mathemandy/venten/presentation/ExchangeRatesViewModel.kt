@@ -50,7 +50,7 @@ class ExchangeRatesViewModel(val fetchExchangeRates: FetchExchangeRates) : ViewM
         try {
             collect { value -> emit(value) }
         } catch (e: Throwable) {
-            mFetchFiltersLiveData.postValue(AppResource.failed(e.message))
+            mExchangeRatesData.postValue(AppResource.failed(e.message))
         }
     }
 }

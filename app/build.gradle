@@ -24,7 +24,7 @@ android {
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
 
-        buildConfigField("String", "ACCESS_KEY", "\"${props.getProperty("ACCESS_KEY")}\"")
+        buildConfigField("String", "ACCESS_KEY", "${props.getProperty("ACCESS_KEY")}")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

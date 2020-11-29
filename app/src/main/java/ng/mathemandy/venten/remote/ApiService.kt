@@ -10,6 +10,6 @@ import retrofit2.http.Query
 interface  ApiService {
 
     @GET("latest")
-    suspend fun  fetchBaseRates(@Query("access_key") accessToken : String = BuildConfig.BUILD_TYPE) : BaseRates
+    suspend fun  fetchBaseRates(@Query("access_key") accessToken : String = BuildConfig.ACCESS_KEY) : BaseRates
 
 }

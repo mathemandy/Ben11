@@ -30,7 +30,7 @@ class CurrencyHomeFragment : BaseFragment() {
     }
 
     private fun initDataListener() {
-        exchangeRatesViewModel.mFetchFiltersLiveData.observe(viewLifecycleOwner, {
+        exchangeRatesViewModel.mExchangeRatesData.observe(viewLifecycleOwner, {
             when (it.status) {
                 AppStatus.LOADING -> {
                     Toast.makeText(context, "loading", Toast.LENGTH_SHORT).show()
@@ -44,7 +44,7 @@ class CurrencyHomeFragment : BaseFragment() {
                 }
 
                 AppStatus.FAILED -> {
-                    Toast.makeText(context, "failed", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "failed - ${it.message}", Toast.LENGTH_SHORT).show()
 //
 
 //                    if (adapter.itemCount > 0){
@@ -59,7 +59,7 @@ class CurrencyHomeFragment : BaseFragment() {
                 }
 
                 AppStatus.EMPTY -> {
-                    Toast.makeText(context, "failed", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "empty", Toast.LENGTH_SHORT).show()
 //
 
 //                    renderEmptyState()

@@ -21,7 +21,7 @@ data class BaseRates(
     val timestamp: Int,
     val base: String,
     val date: String,
-    val rates: Map<String?, Int?>
+    val rates: Map<String?, Double?>
 ) : Parcelable
 
 
